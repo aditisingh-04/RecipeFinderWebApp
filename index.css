@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+/* Color Theme Swatches in Hex
+.Italian-1-hex { color: #D4C2AD; }
+.Italian-2-hex { color: #D7A184; }
+.Italian-3-hex { color: #EFDFCC; }
+.Italian-4-hex { color: #BA8E7A; }
+.Italian-5-hex { color: #66796B; } */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --color-bg: #D4C2AD;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background: var(--color-bg);
+}
+ h1 {
+    font-size: 50px;
+ }

@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+  }
+  
+.textbox {
+    width: 300px; /* Adjust the width as desired */
+    height: 50px; /* Adjust the height as desired */
+    font-size: 16px;
+    padding: 10px;
+  }
+
+.submit-container{
+    text-align: center;
+}
+
+.submit-btn{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #BA8E7A;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 75px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.result-box{
+  display: grid;
+  grid-template-columns: 230px 230px;
+}
